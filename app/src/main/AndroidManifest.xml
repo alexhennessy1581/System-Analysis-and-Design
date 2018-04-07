@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bananas.bananas_project_1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NewBananaActivity" />
+        <activity
+            android:name=".CheckBananas"
+            android:label="@string/title_activity_check_bananas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddBanana"
+            android:label="@string/title_activity_add_banana"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".full_conditions"
+            android:label="@string/title_activity_full_conditions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DeveloperScreen"></activity>
+        <activity android:name=".Insert_Banana">
+        </activity>
+        <activity android:name=".Edit_Banana">
+        </activity>
+        <activity
+            android:name=".BananaBread"
+            android:label="@string/title_activity_banana_bread"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

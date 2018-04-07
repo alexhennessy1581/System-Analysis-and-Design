@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="disclaimer_show_default">false</bool>
+    <bool name="disclaimer_notagain_default">false</bool>
+    <bool name="disclaimer_show">false</bool>
+    <bool name="disclaimer_notagain">false</bool>
+</resources>

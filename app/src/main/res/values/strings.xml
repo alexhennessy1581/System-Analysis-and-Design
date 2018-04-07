@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Bananas_Project_1</string>
+    <string name="biz_title">Bananas</string>
+    <string name="biz_slogan">Funny Slogan</string>
+    <string name="title_activity_check_bananas">CheckBananas</string>
+
+    <string name="disclaimer_text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pulvinar orci vel suscipit pretium.
+        Sed tristique quam justo, ut pharetra purus consectetur et. Nam id laoreet urna. Nam blandit, mi sed dignissim bibendum,
+        ex nunc eleifend diam, nec rutrum sem ex vel ante. Nulla sed consequat neque. In hac habitasse platea dictumst.
+        Sed porta, erat eget tristique blandit, tortor diam viverra magna, a vulputate turpis metus quis mauris. Etiam vestibulum maximus
+        diam eget ullamcorper. Praesent eleifend purus sit amet lorem interdum pretium.
+    </string>
+    <string name="title_activity_full_conditions">FullConditions</string>
+    <string name="title_activity_add_banana">AddBanana</string>
+    <string name="title_activity_banana_bread">BananaBread</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bananas.bananas_project_1.DeveloperScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/someText"
+        android:textSize="14dp"/>
+
+    <Spinner
+        android:id="@+id/spinner_people"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/button_Insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onInsertClick"
+        android:text="Insert New Banana"/>
+
+    <Button
+        android:id="@+id/button_Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onEditClick"
+        android:text="Edit a Banana"/>
+
+    <Button
+        android:id="@+id/button_Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onDeleteClick"
+        android:text="Delete a Banana"/>
+
+</LinearLayout>

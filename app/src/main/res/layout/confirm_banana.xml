@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="bananas.bananas_project_1.MainActivity">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="827dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="left"
+        android:text="Information from server on what thier banana stage is on and information like that"
+        android:textSize="30sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <Button
+        android:id="@+id/confirmBananaButton"
+        android:layout_width="132dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/button_rectangle"
+        android:text="Confirm"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginLeft="208dp" />
+    <Button
+        android:id="@+id/cancelBananaButton"
+        android:layout_width="132dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/button_rectangle"
+        android:text="Cancel"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginLeft="40dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context="bananas.bananas_project_1.full_conditions">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="\nTerms and Conditions\n"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:visibility="visible" />
+    <ScrollView android:layout_height="match_parent" android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="827dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="left"
+            android:text="Last updated: 4/14/17.
+        \nPlease Read these Terms and Conditions (Terms, Terms and Conditions) carefully before using The Banana App, operated by Karmas Revenge, LLC.
+        \nYour access to and use of the Banana App is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use The Banana App.
+        \nBy accessing or using The Banana App, you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the service.
+        \nTo the terms that follows: times and looks subjected by what this app tells you may be dependent on average light of the placement of the banana(s) as well as other factors such as the temperature of the room and other variables such as altitude, humidity, and the climate that the bananas may reside in at where you are keeping the bananas througout the simulation."
+            android:textSize="30sp"
+            android:visibility="visible" />
+</ScrollView>
+</LinearLayout>
